@@ -1,0 +1,26 @@
+{
+  "name": "encodegeojson",
+  "version": "1.0.0",
+  "description": "encode geojson or decode geobuf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiyuan598/common-tools.git"
+  },
+  "keywords": [
+    "geobuf"
+  ],
+  "author": "wangshiyuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiyuan598/common-tools/issues"
+  },
+  "homepage": "https://github.com/shiyuan598/common-tools#readme",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "geobuf": "^3.0.1"
+  }
+}
