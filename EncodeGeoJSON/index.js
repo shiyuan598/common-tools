@@ -29,7 +29,6 @@ function encodeData (url, outGeoJSON, outGeoBuf) {
                 console.info('geobuf ok')
             }
         })
-        console.info()
     }))
 }
 
