@@ -21,6 +21,8 @@
   "homepage": "https://github.com/shiyuan598/common-tools#readme",
   "dependencies": {
     "@turf/turf": "^5.1.6",
-    "geobuf": "^3.0.1"
+    "geobuf": "^3.0.1",
+    "axios": "^0.19.0",
+    "pbf": "^3.2.0"
   }
 }
