@@ -79,3 +79,14 @@ reduceData(url, outJSON)
 
 url = 'http://localhost:9001/data/lamp.geobuf.bpf'
 // decodeData(url)
+
+
+function getSina(url) {
+    axios.get(url, {
+        responseType: 'arraybuffer' // note: responseType must be 'arraybuffer'
+    }).then((function (res) {
+        let data = res.data
+        let geojson = geobuf.decode(new Pbf(data))
+        console.info(JSON.stringify(geojson))
+    }))
+}
