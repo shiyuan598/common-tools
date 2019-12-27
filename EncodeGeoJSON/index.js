@@ -75,13 +75,14 @@ let  outGeoBuf = './data/lamp.geobuf.min.bpf'
 // encodeData(url, outGeoJSON, outGeoBuf)
 
 let outJSON = './data/sign.reduce.min.json'
-reduceData(url, outJSON)
+// reduceData(url, outJSON)
 
-url = 'http://localhost:9001/data/lamp.geobuf.bpf'
+url = 'http://localhost:9002/laketile/12/3228/2032.pbf'
+url = 'http://localhost:9002/laketile/253.vector.pbf'
 // decodeData(url)
 
-
-function getSina(url) {
+getPbf(url)
+function getPbf(url) {
     axios.get(url, {
         responseType: 'arraybuffer' // note: responseType must be 'arraybuffer'
     }).then((function (res) {
