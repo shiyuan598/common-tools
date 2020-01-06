@@ -1,0 +1,15 @@
+{
+  "name": "wkt2geojson",
+  "version": "1.0.0",
+  "description": "convert wkt to geojosn or geojson to wkt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wanghiyuan",
+  "license": "ISC",
+  "dependencies": {
+    "terraformer-wkt-parser": "^1.2.1",
+    "wellknown": "^0.5.0"
+  }
+}
