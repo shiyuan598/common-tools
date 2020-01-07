@@ -1,0 +1,15 @@
+{
+  "name": "campress-img-nodejs",
+  "version": "1.0.0",
+  "description": "campress image with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangshiyuan",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "images": "^3.0.2"
+  }
+}
